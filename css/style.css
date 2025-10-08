@@ -32,7 +32,7 @@ header> nav{
 
 /* --Common-- */
 .hero{
-    width: 90%;
+    width: 70%;
     max-width: 1200;
 
     
@@ -72,9 +72,9 @@ header> nav{
     align-items: center;
 }
 
-/* .center-x{
+.center-x{
     justify-content: center;
-} */
+ }
 
 .bottone{
     border-radius: 30px;
