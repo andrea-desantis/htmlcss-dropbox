@@ -38,6 +38,12 @@ header> nav{
     
 }
 
+/* --footer-- */
+
+footer{
+    color: white;
+}
+
 /* --Common-- */
 
 .container{
@@ -135,4 +141,7 @@ header> nav{
 }
 .bg-azul{
     background-color:azure;
+}
+.bg-black{
+    background-color: black;
 }
