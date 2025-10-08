@@ -29,18 +29,28 @@ header> nav{
     border: 1px solid black;
 }
 
+/* --hero-- */
 
-/* --Common-- */
 .hero{
     width: 70%;
     max-width: 1200;
 
     
 }
+
+/* --Common-- */
+
 .container{
-    width: 80%;
-    max-width: 1000px;;
+    width: 60%;
+    max-width: 1000px;
     
+    border: 1px solid black;
+}
+
+.card{
+    width: 100%;
+
+
     border: 1px solid black;
 }
 
@@ -58,7 +68,9 @@ header> nav{
 .space-around{
     justify-content: space-around;
 }
-
+.space-between{
+    justify-content: space-between;
+}
 .gap{
     gap:10px;
 }
@@ -67,6 +79,11 @@ header> nav{
     flex-basis: 60%;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
 }
 .center-y{
     align-items: center;
@@ -84,7 +101,16 @@ header> nav{
     padding-bottom: 5px;
 }
 
+.circle{
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
 
+.col-30{
+    flex-basis: 30%;
+}
 /* --backgrounds-- */
 
 .bg-red{
@@ -95,6 +121,9 @@ header> nav{
     background-color: blue;
 }
 
+.bg-pink{
+    background-color: pink;
+}
 .bg-azul{
     background-color:azure;
 }
