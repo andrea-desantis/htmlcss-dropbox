@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 img{
@@ -11,29 +12,32 @@ img{
 li{
     list-style: none;
 }
+
+a{
+    text-decoration: none;
+}
 /* --header-- */
 header{
-    height: 70px;
+    height: 55px;
     justify-content: space-between;
 
 
-    border: 1px solid black;
 }
 
 header> nav{
     padding: 20px;
     height: 60%;
-    width: 30%;
+    width: 40%;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    
 }
 
 /* --hero-- */
 
 .hero{
     width: 70%;
-    max-width: 1200;
+    max-width: 1200px;
 
     
 }
@@ -83,9 +87,12 @@ footer{
 .gap{
     gap:10px;
 }
+.text-center{
+    text-align: center;
+}
 .liste{
-    justify-content: space-around;
-    flex-basis: 60%;
+    justify-content: space-evenly;
+    flex-basis: 80%;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -103,11 +110,12 @@ footer{
  }
 
 .bottone{
-    border-radius: 30px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-color: rgb(11, 117, 255);
+    color: white;
 }
 
 .circle{
@@ -125,6 +133,10 @@ footer{
 }
 .col-60{
     flex-basis: 60%;
+}
+
+.piccolo{
+    font-size: 12px;
 }
 /* --backgrounds-- */
 
