@@ -20,14 +20,12 @@ a{
 header{
     height: 55px;
     justify-content: space-between;
-
+    padding: 0px 20px;
 
 }
 
 header> nav{
-    padding: 20px;
     height: 60%;
-    width: 40%;
     justify-content: center;
     align-items: center;
     
@@ -38,10 +36,35 @@ header> nav{
 .hero{
     width: 70%;
     max-width: 1200px;
-
-    
+    padding-top: 60px;
+    min-height: 450px;
+}
+h1{
+    font-size: 3rem;
+    padding: 1rem 0;
 }
 
+.white-space{
+    background-color: white;
+    height: 70px;
+
+    border-bottom: 1px solid gainsboro;
+}
+.grande{
+    font-size: 3rem;
+}
+
+
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.jumbo{
+    width: 100%;
+    max-width: 575px;
+}
 /* --footer-- */
 
 footer{
@@ -85,13 +108,13 @@ footer{
     justify-content: space-between;
 }
 .gap{
-    gap:10px;
+    gap:20px;
 }
 .text-center{
     text-align: center;
 }
+
 .liste{
-    justify-content: space-evenly;
     flex-basis: 80%;
     margin-left: 20px;
     margin-right: 20px;
@@ -134,9 +157,18 @@ footer{
 .col-60{
     flex-basis: 60%;
 }
-
+.col-70{
+    flex-basis: 70%;
+}
 .piccolo{
-    font-size: 12px;
+    font-size: 1rem;
+}
+
+.margin-bot{
+    margin-bottom: 20px;
+}
+.margin-top{
+    margin-top: 20px;
 }
 /* --backgrounds-- */
 
@@ -151,8 +183,8 @@ footer{
 .bg-pink{
     background-color: pink;
 }
-.bg-azul{
-    background-color:azure;
+.bg-lightblue{
+    background-color:rgb(182, 222, 240);
 }
 .bg-black{
     background-color: black;
