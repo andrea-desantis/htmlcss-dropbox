@@ -153,6 +153,9 @@ footer{
 .col-40{
     flex-basis: 40%;
 }
+.col-50{
+    flex-basis: 50%;
+}
 .col-60{
     flex-basis: 60%;
 }
@@ -168,6 +171,10 @@ footer{
 }
 .margin-top{
     margin-top: 20px;
+}
+
+.padding-section{
+    padding: 100px;
 }
 /* --backgrounds-- */
 
