@@ -13,9 +13,7 @@ li{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-}
+
 /* --header-- */
 header{
     height: 55px;
@@ -139,6 +137,7 @@ footer{
     padding-bottom: 5px;
     background-color: rgb(11, 117, 255);
     color: white;
+    text-decoration: none;
 }
 
 .circle{
