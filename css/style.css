@@ -75,24 +75,29 @@ footer{
     width: 60%;
     max-width: 1000px;
     
-    border: 1px solid black;
+
 }
 
 .card{
     width: 100%;
 
 
-    border: 1px solid black;
+    border: 1px solid rgb(190, 189, 189);
 }
 
 .height{
     height: 500px;
-    border: 1px solid black;
+    
+}
+.width{
+    width: 25% ;
 }
 .flex{
     display: flex;
 }
-
+.flex-end{
+    justify-content: flex-end;
+}
 .wrap{
     flex-wrap: wrap;
 }
@@ -111,7 +116,10 @@ footer{
 .text-center{
     text-align: center;
 }
+.text-end{
+    text-align: end;
 
+}
 .liste{
     flex-basis: 80%;
     margin-left: 20px;
@@ -179,25 +187,28 @@ footer{
 .padding-top{
     padding-top: 10px;
 }
-
+.padding{
+    padding: 10px;
+}
 .padding-section{
     padding: 100px 0;
+    
+}
+
+.blue{
+    color: rgb(11, 117, 255);
+}
+.grigio{
+    color: rgb(190, 189, 189);
+}
+.bot-border-gray{
+    border-bottom: 1px solid rgb(190, 189, 189);
 }
 /* --backgrounds-- */
 
-.bg-red{
-    background-color: red;
-}
 
-.bg-blue{
-    background-color: blue;
-}
-
-.bg-pink{
-    background-color: pink;
-}
 .bg-lightblue{
-    background-color:rgb(182, 222, 240);
+    background-color:rgb(169, 206, 223);
 }
 .bg-black{
     background-color: black;
