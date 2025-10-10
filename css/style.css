@@ -146,6 +146,7 @@ footer{
     background-color: rgb(11, 117, 255);
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
 .bottone.bianco{
     background-color: white;
@@ -156,7 +157,8 @@ footer{
     background-color: aqua;
     border-radius: 50%;
     border: 1px solid black;
-    
+    width: 5px;
+    height: 5px;
 }
 
 .col-30{
